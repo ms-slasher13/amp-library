@@ -304,7 +304,7 @@ class Context
      * @param \DOMElement|null $dom_el
      * @return int
      */
-    public function getLineNo(\DOMElement $dom_el = null)
+    public function getLineNo(?\DOMElement $dom_el = null)
     {
         if (empty($dom_el)) {
             $dom_el = $this->dom_tag;
