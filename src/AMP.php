@@ -133,7 +133,7 @@ class AMP
      *
      * @see src/Spec/validator-generated.php
      */
-    public function __construct(ParsedValidatorRules $parsed_rules = NULL)
+    public function __construct(?ParsedValidatorRules $parsed_rules = NULL)
     {
         $this->parsed_rules = $parsed_rules;
         if (empty($this->parsed_rules)) {
